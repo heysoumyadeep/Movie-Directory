@@ -7,7 +7,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
@@ -50,7 +49,7 @@ public class MovieRecyclerViewAdapter extends RecyclerView.Adapter<MovieRecycler
                 .into(holder.poster);
 
         Picasso.get().load(posterLink).placeholder(android.R.drawable.ic_btn_speak_now)
-                .into(holder.back);
+                .into(holder.backGround);
 
         holder.year.setText(movie.getYear());
 
@@ -64,7 +63,7 @@ public class MovieRecyclerViewAdapter extends RecyclerView.Adapter<MovieRecycler
     public class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
 
         TextView title;
-        ImageView poster,back;
+        ImageView poster, backGround;
         TextView year,type;
 
         public ViewHolder(@NonNull View itemView,Context ctx) {
@@ -74,7 +73,7 @@ public class MovieRecyclerViewAdapter extends RecyclerView.Adapter<MovieRecycler
             poster = (ImageView) itemView.findViewById(R.id.movieImageID);
             year = (TextView) itemView.findViewById(R.id.movieReleaseID);
             type = (TextView) itemView.findViewById(R.id.movieCatID);
-            back = (ImageView) itemView.findViewById(R.id.movieBackGroundID);
+            backGround = (ImageView) itemView.findViewById(R.id.movieBackGroundID);
 
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
