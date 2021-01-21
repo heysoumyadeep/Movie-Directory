@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="20dp">
+
+    <androidx.cardview.widget.CardView
+        app:cardCornerRadius="20dp"
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/cardview_dark_background">
+
+            <ImageView
+                android:id="@+id/movieBackGroundID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/movieImageID"
+                android:layout_alignBottom="@+id/movieImageID"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="0dp"
+                android:scaleType="centerCrop"
+                android:src="@color/cardview_dark_background" />
+
+            <View
+                android:id="@+id/opacityFilter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/movieImageID"
+                android:layout_alignBottom="@+id/movieImageID"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="0dp"
+                android:alpha="0.6"
+                android:background="@android:color/black">
+            </View>
+
+
+            <ImageView
+                android:id="@+id/movieImageID"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/shape"/>
+
+            <TextView
+                android:id="@+id/movieTitleID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:layout_marginLeft="15dp"
+
+                android:layout_centerHorizontal="true"
+                android:layout_toRightOf="@id/movieImageID"
+                android:text="Movie Title"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="@color/white"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/movieReleaseID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/movieTitleID"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@id/movieImageID"
+                android:padding="5dp"
+                android:layout_centerHorizontal="true"
+                android:text="Released:"
+                android:textColor="@color/white"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:id="@+id/movieCatID"
+                android:padding="5dp"
+                android:layout_below="@id/movieReleaseID"
+                android:layout_toRightOf="@id/movieImageID"
+                android:text="Category"
+                android:layout_marginLeft="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="14sp"/>
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

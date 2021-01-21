@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.MovieDetailsActivity$AppInfo"
+    android:background="@color/cardview_dark_background">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/appInfoHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:padding="20dp"
+        android:layout_margin="30dp"
+        android:text="About this App"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#FDD835"
+        android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/appDetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:padding="15dp"
+            android:text="@string/intro"
+            android:textColor="#FFFFFF"
+            android:textColorLink="#FFFFFF"
+            android:textSize="22sp"
+            android:layout_below="@id/appInfoHeading"/>
+
+    <TextView
+        android:id="@+id/github"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/appDetails"
+        android:padding="10dp"
+        android:layout_margin="20dp"
+        android:text="@string/github"
+        android:textColor="#FFFFFF"
+        android:textColorLink="#FFFFFF"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/thankyou"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Thank You"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/github"/>
+
+    <TextView
+        android:id="@+id/linkedIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/DevName"
+        android:padding="5dp"
+        android:text="@string/linkedInhandle"
+        android:textColor="#FFFFFF"
+        android:textColorLink="#039BE5"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/Dev"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/thankyou"
+            android:padding="10dp"
+            android:text="Developed By"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:layout_centerHorizontal="true"/>
+
+        <ImageView
+            android:id="@+id/sparksLogo"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/myphoto"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/Dev"/>
+
+        <TextView
+            android:id="@+id/DevName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sparksLogo"
+            android:padding="5dp"
+            android:text="Soumyadeep Pradhan"
+            android:textColor="#FDD835"
+            android:textSize="20sp"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="sans-serif-condensed"/>
+
+    </RelativeLayout>
+
+</ScrollView>

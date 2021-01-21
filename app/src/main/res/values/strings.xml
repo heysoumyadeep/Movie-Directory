@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Movie Directory</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="movieDet">Movie Details</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="search_title">Search</string>
+    <string name="search_text">Search Term</string>
+    <string name="search_hint">Avengers</string>
+    <string name="intro">Hi !! This app is a
+        Basic Movie Directory App where you can find all the popular movies and web-series released till now. I have
+        used <a href="https://www.omdbapi.com/">OMDb API</a> for retrieving Movies and Movie Details. </string>
+
+    <string name="github">Source Code of this App:
+         <a href="https://github.com/heysoumyadeep/Movie-Directory">Github</a></string>
+    <string name="linkedInhandle">My Social Media Handle:
+         <a href="https://www.linkedin.com/in/soumyadeeppradhan/">LinkedIn</a></string>
+</resources>
