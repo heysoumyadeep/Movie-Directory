@@ -5,6 +5,10 @@ IDE Used - Android Studio
 
 API Used - [OMDb API](https://www.omdbapi.com/)
 
-Try this App from Releases section or download directly from [Here](https://github.com/heysoumyadeep/Movie-Directory/releases/download/v1.0/Movie-Directory.apk)
+Try this App from [Here](https://bit.ly/3lB9lh8)
+
+OR
+
+Download Directly from [Here](https://github.com/heysoumyadeep/Movie-Directory/releases/download/v1.0/Movie-Directory.apk)
 
 Thank You..!!
