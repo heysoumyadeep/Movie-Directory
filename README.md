@@ -9,6 +9,6 @@ Try this App from [Here](https://bit.ly/3lB9lh8)
 
 OR
 
-Download Directly from [APK](https://github.com/heysoumyadeep/Movie-Directory/releases/download/v1.0/Movie-Directory.apk)
+Download Directly - [APK](https://github.com/heysoumyadeep/Movie-Directory/releases/download/v1.0/Movie-Directory.apk)
 
 Thank You..!!
